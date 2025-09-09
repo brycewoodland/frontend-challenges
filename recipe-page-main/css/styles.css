@@ -1,3 +1,6 @@
+/*====== Base Reset ======
+========================== */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -27,6 +30,9 @@ ol li {
     margin: 0.5rem;
 }
 
+/*====== Variables =======
+========================== */
+
 :root {
     --white: hsl(0, 0%, 100%);
 
@@ -40,6 +46,9 @@ ol li {
     --rose-800: hsl(332, 51%, 32%);
     --rose-50: hsl(330, 100%, 98%);
 }
+
+/*====== Recipe Card =====
+========================== */
 
 .recipe-wrapper {
     max-width: 700px;
@@ -111,5 +120,5 @@ table td:nth-child(2) {
     font-size: 0.9rem;
     line-height: 2;
     margin: 15px 0;
-    font-weight: 400;
+    font-weight: normal;
 }
