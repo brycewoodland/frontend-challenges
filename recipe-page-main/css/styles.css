@@ -11,7 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background: var(--stone-100);
-  color: var(--stone-600); /* set default text color */
+  color: var(--stone-600);
 }
 
 /*====== Variables =======
