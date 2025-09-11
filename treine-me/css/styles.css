@@ -89,6 +89,10 @@ ul {
     margin-top: 15px;
 }
 
+.btn i {
+    margin-right: 10px;
+}
+
 footer {
   position: relative;
   padding: 1rem;
