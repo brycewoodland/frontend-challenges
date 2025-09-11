@@ -77,8 +77,8 @@ ul {
     margin: 3rem 0;
 }
 
-.hero-content {
-    max-width: 48ch;
+.hero-content p {
+    max-width: 43ch;
 }
 
 .hero-content .p-text {
