@@ -125,7 +125,7 @@ footer img {
 .btn {
     display: inline-block;
     background: var(--primary);
-    color: var(--light);
+    color: black;
     padding: 1rem;
     border-radius: 5px;
     transition: opacity 0.3s ease;
