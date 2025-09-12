@@ -18,4 +18,11 @@ const navMenu = document.querySelector(".main-nav ul");
 menuToggle.addEventListener("click", () => {
   navMenu.classList.toggle("active");
   menuToggle.classList.toggle("open");
+
+  // Prevent scrolling
+  if (navMenu.classList.contains("active")) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "";
+  }
 });
