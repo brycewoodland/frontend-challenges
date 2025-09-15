@@ -160,13 +160,7 @@ ul {
   transition: border 0.3s ease;
 }
 
-.thumbnail-images img.active {
-    border: 2px solid var(--orange);
-    opacity: 0.6;
-}
-
-.thumbnail-images img:hover,
-.thumbnail-images img.active {
+.thumbnail-images img:hover{
   border: 2px solid var(--orange);
   opacity: 0.6;
 }
@@ -303,7 +297,7 @@ ul {
   border: none;
   font-size: 1rem;
   outline: none;
-  -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 .quantity-input::-webkit-outer-spin-button,
