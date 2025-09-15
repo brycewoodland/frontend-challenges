@@ -60,12 +60,22 @@
     <section class="container-sm">
       <div class="grid">
         <div class="product-images">
-          <img src="./images/image-product-1.jpg" alt="product">
+          <img src="./images/image-product-1.jpg" alt="product" />
           <div class="thumbnail-images">
-            <img src="./images/image-product-1-thumbnail.jpg" alt="thumbnail">
-            <img src="./images/image-product-2-thumbnail.jpg" alt="thumbnail">
-            <img src="./images/image-product-3-thumbnail.jpg" alt="thumbnail">
-            <img src="./images/image-product-4-thumbnail.jpg" alt="thumbnail">
+            <img
+              src="./images/image-product-1-thumbnail.jpg"
+              alt="thumbnail"
+              id="thumbnail"
+              class="active"
+            />
+            <img src="./images/image-product-2-thumbnail.jpg" alt="thumbnail" id="thumbnail" />
+            <img src="./images/image-product-3-thumbnail.jpg" alt="thumbnail" id="thumbnail" />
+            <img src="./images/image-product-4-thumbnail.jpg" alt="thumbnail" id="thumbnail" />
+          </div>
+
+          <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01" />
           </div>
         </div>
         <div class="product-content">
@@ -79,22 +89,26 @@
             <p class="text-md">$125.00</p>
             <p class="text-sm">50%</p>
           </div>
-          <p class="text-sm orig-price">$250.00</p>
+          <p class="text-xs orig-price">$250.00</p>
           <div class="quantity">
-            <button type="button" class="decrement" aria-label="Decrease quantity">
-              <img src="./images/icon-minus.svg" alt="Minus" />
-            </button>
-            <input
-              type="number"
-              class="quantity-input"
-              value="1"
-              min="1"
-              aria-label="Product quantity"
-            />
-            <button type="button" class="increment" aria-label="Increase quantity">
-              <img src="./images/icon-plus.svg" alt="Plus" />
-            </button>
-            <a href="#" class="btn"> <i class="fas fa-shopping-cart"></i><strong>Add to cart</strong></a>
+            <div class="quantity-box">
+              <button type="button" class="decrement" aria-label="Decrease quantity">
+                <img src="./images/icon-minus.svg" alt="Minus" />
+              </button>
+              <input
+                type="number"
+                class="quantity-input"
+                value="1"
+                min="1"
+                aria-label="Product quantity"
+              />
+              <button type="button" class="increment" aria-label="Increase quantity">
+                <img src="./images/icon-plus.svg" alt="Plus" />
+              </button>
+            </div>
+            <a href="#" class="btn">
+              <i class="fas fa-shopping-cart"></i><strong>Add to cart</strong></a
+            >
           </div>
         </div>
       </div>
